@@ -16,7 +16,7 @@ const Button = ({ setUpdateUI }) => {
 
 
     axios
-      .post("https://gallerybackend-1pa7.onrender.com/api/save", formData)
+      .post("https://photo-backend-4qm8.onrender.com/api/save", formData)
       .then((res) => {
         console.log(res.data);
 
