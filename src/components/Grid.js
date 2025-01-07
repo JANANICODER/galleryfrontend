@@ -8,7 +8,7 @@ const Grid = ({ photos }) => {
         {photos.map(({ photo, _id }) => (
           <div key={_id} className="grid__item">
             <img
-              src={`https://photo-backend-4qm8.onrender.com/uploads/${photo}`}
+              src={`https://img-server-34bl.onrender.com/uploads/${photo}`}
               alt="grid_image"
             />
           </div>

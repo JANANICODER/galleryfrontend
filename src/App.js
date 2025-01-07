@@ -15,7 +15,7 @@ function App() {
   
   useEffect(() => {
     axios
-      .get("https://photo-backend-4qm8.onrender.com/api/get")
+      .get("https://img-server-34bl.onrender.com/api/get")
       .then((res) => {
         console.log(res.data);
         setPhotos(res.data);
